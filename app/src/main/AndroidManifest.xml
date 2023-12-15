@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.parveensapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.parveensapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" android:name="com.facebook.FacebookActivity"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargeeight.ui.AndroidLargeEightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frameseventeen.ui.FrameSeventeenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargeone.ui.AndroidLargeOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.iphone13minione.ui.Iphone13MiniOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargefive.ui.AndroidLargeFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frameeighteen.ui.FrameEighteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framesix.ui.FrameSixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framefive.ui.FrameFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargetwo.ui.AndroidLargeTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.iphone14plustwo.ui.Iphone14PlusTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargeten.ui.AndroidLargeTenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.clashofclans.ui.ClashOfClansActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framesixteen.ui.FrameSixteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frameeight.ui.FrameEightActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.parveensapplication.app.modules.gamemart.ui.GamemartActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargefour.ui.AndroidLargeFourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frameeleven.ui.FrameElevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.iphone13minitwo.ui.Iphone13MiniTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frameone.ui.FrameOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargenine.ui.AndroidLargeNineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frametwelve.ui.FrameTwelveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargesix.ui.AndroidLargeSixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framefour.ui.FrameFourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frameten.ui.FrameTenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.frameseven.ui.FrameSevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargeseven.ui.AndroidLargeSevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.androidlargethree.ui.AndroidLargeThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framethree.ui.FrameThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framefifteen.ui.FrameFifteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framefourteen.ui.FrameFourteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.parveensapplication.app.modules.framenine.ui.FrameNineActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>
