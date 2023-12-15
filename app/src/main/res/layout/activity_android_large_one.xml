@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="androidLargeOneVM" type="com.parveensapplication.app.modules.androidlargeone.data.viewmodel.AndroidLargeOneVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameAndroidLarge"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylegray_900">
+        <LinearLayout android:id="@+id/linearColumngroupfiftysix"
+            android:layout_gravity="top|start"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end" android:gravity="start"
+                android:id="@+id/txtGroupFiftySix"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_8pxv"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_27pxv"
+                android:singleLine="true"
+                android:text="@{androidLargeOneVM.androidLargeOneModel.txtGroupFiftySix}"
+                style="@style/txtSolid" tools:text="@string/lbl_step_2_5"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtAddScreenshort"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_35pxh"
+                android:layout_marginStart="@dimen/_35pxh"
+                android:layout_marginTop="@dimen/_38pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{androidLargeOneVM.androidLargeOneModel.txtAddScreenshort}"
+                style="@style/txtInterregular22" tools:text="@string/lbl_add_screenshort"/>
+            <TextView android:gravity="end"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_13pxh"
+                android:layout_marginStart="@dimen/_13pxh"
+                android:layout_marginTop="@dimen/_14pxv"
+                android:layout_width="match_parent"
+                android:text="@{androidLargeOneVM.androidLargeOneModel.txtDescription}"
+                style="@style/txtInterregular12_1" tools:text="@string/msg_choose_a_screen"/>
+            <View android:background="@color/bluegray_100"
+                android:id="@+id/viewRectangleNine"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_169pxv"
+                android:layout_marginEnd="@dimen/_25pxh"
+                android:layout_marginStart="@dimen/_28pxh"
+                android:layout_marginTop="@dimen/_21pxv" android:layout_width="@dimen/_304pxh"/>
+            <TextView android:gravity="start"
+                android:id="@+id/txtDescriptionOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_31pxh"
+                android:layout_marginStart="@dimen/_31pxh"
+                android:layout_marginTop="@dimen/_34pxv"
+                android:layout_width="match_parent"
+                android:text="@{androidLargeOneVM.androidLargeOneModel.txtDescriptionOne}"
+                style="@style/txtInterregular12_1" tools:text="@string/msg_add_your_all_co"/>
+            <FrameLayout android:id="@+id/frameStackvector"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_169pxv"
+                android:layout_marginEnd="@dimen/_28pxh"
+                android:layout_marginStart="@dimen/_28pxh"
+                android:layout_marginTop="@dimen/_21pxv"
+                android:layout_width="@dimen/_304pxh" style="@style/groupStylebluegray_100">
+                <ImageView android:id="@+id/imageVector"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_17pxh"
+                    android:layout_marginHorizontal="@dimen/_40pxh"
+                    android:layout_marginVertical="@dimen/_40pxv"
+                    android:layout_width="@dimen/_17pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_vector_black_900_17x17"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_vector_black_900_17x17"/>
+            </FrameLayout>
+            <LinearLayout android:id="@+id/linearRowback"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_28pxh"
+                android:layout_marginStart="@dimen/_28pxh"
+                android:layout_marginTop="@dimen/_96pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnBack"
+                    android:layout_height="@dimen/_45pxv"
+                    android:layout_width="@dimen/_110pxh"
+                    android:paddingBottom="@dimen/_14pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_14pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_back"
+                    android:textAllCaps="false"
+                    style="@style/btnSolid_2" tools:text="@string/lbl_back"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnNext"
+                    android:layout_height="@dimen/_45pxv"
+                    android:layout_marginStart="@dimen/_58pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:paddingBottom="@dimen/_14pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_14pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_next"
+                    android:textAllCaps="false"
+                    style="@style/btnSolid_3" tools:text="@string/lbl_next"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

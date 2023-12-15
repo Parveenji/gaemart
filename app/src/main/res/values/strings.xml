@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">parveen_s_application</string>
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <!--TODO ENTER YOUR APP ID BELOW-->
+    <string name="facebook_app_id"/>
+    <!--TODO ENTER YOUR APP ID BELOW (eg: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTER YOUR Client Token BELOW-->
+    <string name="facebook_client_token"/>
+<string name="msg_write_something">write something....</string>
+  <string name="lbl_12345678">12345678</string>
+  <string name="lbl_back">Back</string>
+  <string name="lbl_next">Next</string>
+  <string name="lbl_buy">BUY</string>
+  <string name="lbl_send_details">Send details</string>
+  <string name="lbl_no">NO</string>
+  <string name="msg_don_t_have_an_a">"Don't have an account? Sign Up"</string>
+  <string name="lbl_68">68</string>
+  <string name="msg_gamemart_terms">"*GameMart Terms and Conditions*
+
+*1. Acceptance of Terms*
+
+1.1. By accessing or using GameMart, users acknowledge and agree to comply with these terms and conditions.
+
+1.2. Continued use of the platform constitutes ongoing acceptance of these terms.
+
+*2. Safety Tips*
+
+2.1. Users are encouraged to follow safety tips provided by GameMart for a secure and positive experience.
+
+2.2. For safety concerns or inquiries, users can contact GameMart's customer support.
+
+*3. Privacy Policy*
+
+3.1. Users must read and understand the Privacy Policy governing the collection and handling of personal information.
+
+*4. User Accounts*
+
+4.1. Users are responsible for maintaining the confidentiality of their account information.
+
+4.2. GameMart reserves the right to suspend or terminate accounts for violations of terms.
+
+*5. Listing and Selling Items*
+
+5.1. Sellers must provide accurate and truthful information about the items they list.
+
+5.2. GameMart has the right to remove any listing that violates terms or is deemed inappropriate.
+
+*6. Buyer Responsibilities*
+
+6.1. Buyers must pay the agreed-upon amount promptly through specified payment methods.
+
+6.2. Buyers must adhere to the terms of the transaction and follow GameMart's guidelines.
+
+*7. Transaction Security*
+
+7.1. GameMart employs security measures to ensure a secure environment for transactions.
+
+7.2. A nominal security fee may be required to initiate the transaction, refundable under specified conditions.
+
+*8. Verification Process*
+
+8.1. GameMart will verify the authenticity of listed items to maintain the platform's integrity.
+
+8.2. Sellers must cooperate with the verification process, providing necessary information promptly.
+
+*9. Fees and Commissions*
+
+9.1. GameMart charges a commission on successful transactions.
+
+9.2. The commission percentage is transparently communicated to users.
+
+*10. Refund Policy*
+
+10.1. Refunds are subject to specific conditions outlined in GameMart's refund policy.
+
+10.2. Refund requests must adhere to the terms and conditions specified in the refund policy.
+
+*11. Intellectual Property*
+
+11.1. Users retain ownership of their intellectual property.
+
+11.2. GameMart has the right to display user-generated content on the platform.
+
+*12. Limitation of Liability*
+
+12.1. GameMart shall not be liable for any indirect, consequential, or incidental damages.
+
+12.2. The total liability of GameMart for any claim shall not exceed the amount paid by the user for accessing the platform.
+
+*13. Governing Law*
+
+13.1. These terms and conditions are governed by the laws of [Your Jurisdiction].
+
+13.2. Any disputes arising shall be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
+
+*14. Changes to Terms*
+
+14.1. GameMart reserves the right to modify these terms and conditions at any time.
+
+14.2. Users are responsible for regularly reviewing the terms for updates or changes."</string>
+  <string name="lbl_adds">Adds</string>
+  <string name="lbl_home">Home</string>
+  <string name="lbl_description">Description</string>
+  <string name="lbl_300">300</string>
+  <string name="lbl_coc">Coc</string>
+  <string name="msg_buy_gaming_acco">BUY GAMING ACCOUNT AND
+   BOOST YOUR GAMEPLAY</string>
+  <string name="lbl_cod">Cod</string>
+  <string name="lbl_step_1_5">STEP 1/5</string>
+  <string name="msg_this_process_ca">This process can take upto 3 working days</string>
+  <string name="lbl_dominate">Dominate</string>
+  <string name="msg_you_haven_t_pl">You  haven\u2019t placed any order yet</string>
+  <string name="lbl_total_gp">TOTAL GP </string>
+  <string name="msg_trade_securly_w">Trade securly with gamers
+ throughout  the world</string>
+  <string name="lbl_passward">Passward:</string>
+  <string name="lbl_log_out">Log out</string>
+  <string name="lbl_enter_id_level">ENTER ID LEVEL</string>
+  <string name="msg_name_changeing2">Name changeing card</string>
+  <string name="msg_don_t_take_risk">"DON'T take risks by transacting outside of
+ gamemart."</string>
+  <string name="lbl_privacy_policy2"> Privacy Policy</string>
+  <string name="lbl_step_5_5">STEP 5/5</string>
+  <string name="lbl_rs_4000">Rs 4000</string>
+  <string name="msg_keep_selling_an">Keep selling and keep earning</string>
+  <string name="lbl_price">Price</string>
+  <string name="lbl_total_gems">TOTAL  GEMS </string>
+  <string name="msg_accounts_for_yo">Accounts for you</string>
+  <string name="lbl_2356">2356</string>
+  <string name="lbl_selling">selling</string>
+  <string name="msg_follow_us_on_so">FOLLOW US ON SOCIAL MEDIA</string>
+  <string name="lbl_vk">vk</string>
+  <string name="lbl_freefire">freefire</string>
+  <string name="msg_so_we_recommend">So we recommend to add your price accordingly</string>
+  <string name="msg_congratulations2">Congratulations on successfully selling id</string>
+  <string name="lbl_gamemart"> Gamemart</string>
+  <string name="lbl_how_it_works">HOW IT WORKS</string>
+  <string name="lbl_depscription">Depscription</string>
+  <string name="msg_delivery_confir2">Delivery confirmed </string>
+  <string name="lbl_alert">Alert</string>
+  <string name="msg_you_don_t_have">You  don\u2019t have any favorites yet</string>
+  <string name="lbl_cancel_order">Cancel order</string>
+  <string name="lbl_123">123</string>
+  <string name="lbl_currency">Currency</string>
+  <string name="msg_dominate_your_g">Dominate Your Game with Gamemart</string>
+  <string name="lbl_google">google</string>
+  <string name="msg_connect_with_cu">connect with customare care</string>
+  <string name="lbl_amount">Amount</string>
+  <string name="lbl_evo_gun">Evo gun</string>
+  <string name="lbl_details">Details</string>
+  <string name="lbl_earning">earning</string>
+  <string name="msg_waiting_for_pay">waiting for payment</string>
+  <string name="msg_id_sold_waiting">id sold waiting for confirmation</string>
+  <string name="msg_continue_with_g">Continue with google</string>
+  <string name="lbl_bgmi">Bgmi</string>
+  <string name="lbl_welcome">Welcome</string>
+  <string name="lbl_24555">24555</string>
+  <string name="lbl_total_coins">TOTAL COINS</string>
+  <string name="msg_video_shoud_not">video shoud not br grater then 100mb</string>
+  <string name="lbl_active">Active</string>
+  <string name="msg_waiting_for_ord"> waiting for order</string>
+  <string name="lbl_and_keep"> and keep </string>
+  <string name="lbl_fav">fav</string>
+  <string name="msg_trading_gaming">Trading gaming account can
+        be risky, but not with
+                gamemart</string>
+  <string name="lbl_password">Password</string>
+  <string name="msg_choose_a_screen">Choose a screenshot (cover) of your id that can attract
+ buyers</string>
+  <string name="lbl_rate_us">Rate us</string>
+  <string name="lbl_key_players">key Players</string>
+  <string name="msg_connect_with_bu">connect with Buyer</string>
+  <string name="msg_sing_in_anonymo">Sing in Anonymously</string>
+  <string name="msg_connect_with_se">connect with seller</string>
+  <string name="msg_we_provide_a_sa">We provide a safe and simple trading 
+experience for gamers worldwide. 
+Our PlayerGuardian technology ensures 
+top-notch security for transactions and 
+keeps user info intact by preventing
+phishing.</string>
+  <string name="lbl_enter_id_number">ENTER ID NUMBER</string>
+  <string name="msg_select_which_ga">select which game id want to add</string>
+  <string name="msg_terms_and_condi">Terms and conditions</string>
+  <string name="lbl_property_status">Property status</string>
+  <string name="lbl_rs_40002">Rs: 4000</string>
+  <string name="msg_what_are_you_lo">What are you looking for  ?</string>
+  <string name="msg_20_of_selling">20% of selling price will be charged by
+ gamemart upon successful transaction as
+tax and service</string>
+  <string name="lbl_price2">price</string>
+  <string name="lbl_add_screenshort">Add Screenshort</string>
+  <string name="lbl_twitter">Twitter</string>
+  <string name="lbl_buy2">Buy</string>
+  <string name="msg_gamemart_is_a_p">Gamemart is a platform that provides 
+a secure player-to-player trading
+ experience for buyers and sellers of
+ online gaming products. We provide
+ a system for secure transactions</string>
+  <string name="lbl_category">category</string>
+  <string name="lbl_ronaldo">Ronaldo</string>
+  <string name="lbl_enter_passward">Enter Passward:</string>
+  <string name="lbl_favorites">Favorites</string>
+  <string name="lbl_chat">Chat</string>
+  <string name="lbl_step_3_5">STEP 3/5</string>
+  <string name="msg_you_haven_t_li">You  haven\u2019t listed any order yet</string>
+  <string name="lbl_enter_user_id">Enter User id:</string>
+  <string name="lbl_about_us">About Us</string>
+  <string name="lbl_total_diamonds">TOTAL DIAMONDS </string>
+  <string name="msg_leading_marketp">Leading
+Marketplace
+For Gamers</string>
+  <string name="lbl_yes">YES</string>
+  <string name="msg_by_clicking_log2">By clicking Login or Continue with Google, you agree to continue </string>
+  <string name="lbl_contact_us">Contact us</string>
+  <string name="lbl_id">Id</string>
+  <string name="lbl_login_methods">Login methods</string>
+  <string name="msg_do_change_perso">Do change personal details contact details
+and remove old details and change password and turn on two factor authentication before confirming account delivery  </string>
+  <string name="lbl_get_started">GET STARTED</string>
+  <string name="msg_name_changeing">NAME CHANGEING CARD </string>
+  <string name="lbl_send">Send</string>
+  <string name="msg_don_t_disclose">"DON'T disclose any personal information to
+ sellers which may jeopardize the safety of
+ your account."</string>
+  <string name="lbl_add_more">Add more</string>
+  <string name="msg_gamemart_buy">   GAMEMART
+Buy / sell games</string>
+  <string name="msg_so_we_recommend2">So we recommend to add your </string>
+  <string name="msg_confirm_deliver">confirm delivery</string>
+  <string name="lbl_name">Name</string>
+  <string name="lbl_facebook">facebook</string>
+  <string name="lbl_name_of_seller">Name of seller</string>
+  <string name="lbl_key_player">Key player</string>
+  <string name="lbl_town_hall">Town Hall</string>
+  <string name="lbl_your_game_with"> Your Game with</string>
+  <string name="lbl_and"> and</string>
+  <string name="lbl_privacy_policy">Privacy policy</string>
+  <string name="lbl_add_video">Add video </string>
+  <string name="lbl_keep">Keep </string>
+  <string name="lbl_builder_hall">BUILDER Hall</string>
+  <string name="lbl_total_builder">TOTAL  BUILDER</string>
+  <string name="msg_congratulations">congratulations on successful purchase </string>
+  <string name="msg_show_your_skins">show your skins ect</string>
+  <string name="lbl_elite_pass">ELITE PASS </string>
+  <string name="lbl_share">Share</string>
+  <string name="lbl_85">85</string>
+  <string name="lbl_user_id">User id:</string>
+  <string name="lbl_elite_pass2">Elite pass</string>
+  <string name="msg_id_recived_wait">id recived waiting for confirmation</string>
+  <string name="lbl_level">Level:</string>
+  <string name="msg_recived_an_orde">Recived an order waiting for forwaring details </string>
+  <string name="lbl_coins">Coins</string>
+  <string name="lbl_google2">Google</string>
+  <string name="lbl_200">200</string>
+  <string name="msg_gamemart_privac">"GameMart Privacy Policy*
+
+Effective Date: [Date]
+
+*1. Introduction*
+
+1.1. *Overview:*
+- Welcome to GameMart's Privacy Policy. This document explains how we collect, use, share, and protect your personal information.
+
+1.2. *Acceptance:*
+- By using GameMart, you consent to the terms outlined in this Privacy Policy.
+
+*2. Information We Collect*
+
+2.1. *Account Information:*
+- When you register, we collect personal information such as name, email, and contact details.
+
+2.2. *Transaction Information:*
+- Details related to transactions on the platform, including payment information.
+
+2.3. *User Content:*
+- Information provided by users, including item listings, messages, and other content shared on the platform.
+
+2.4. *Automatically Collected Information:*
+- Through cookies, log files, and similar technologies, we collect information about user interactions with the platform.
+
+*3. How We Use Information*
+
+3.1. *Provide and Maintain Services:*
+- Utilize information to offer, operate, and maintain the platform's functionality.
+
+3.2. *Transactions:*
+- Process transactions and provide related customer service.
+
+3.3. *Communication:*
+- Communicate with users about their account, transactions, and promotional updates.
+
+3.4. *Improve and Personalize:*
+- Analyze user interactions to improve services and personalize user experiences.
+
+*4. Information Sharing*
+
+4.1. *Service Providers:*
+- Share information with third-party service providers to facilitate platform operations.
+
+4.2. *Legal Compliance:*
+- Disclose information to comply with legal obligations or respond to lawful requests.
+
+4.3. *User Consent:*
+- Share information with user consent or as otherwise outlined in this privacy policy.
+
+*5. Your Choices*
+
+5.1. *Account Information:*
+- Users can access, update, or delete their account information through account settings.
+
+5.2. *Communication Preferences:*
+- Users can manage their communication preferences by adjusting settings.
+
+*6. Security*
+
+6.1. *Data Security:*
+- Employ measures to protect user information; however, no method is entirely secure.
+
+*7. Children's Privacy*
+
+7.1. *Age Restriction:*
+- GameMart is not intended for users under the age of [specified age]. We do not knowingly collect information from children.
+
+*8. Changes to Privacy Policy*
+
+8.1. *Updates:*
+- GameMart reserves the right to update this privacy policy. Users will be notified of significant changes.
+
+*9. Contact Information*
+
+9.1. *Questions:*
+- Users can contact GameMart with any questions or concerns regarding this privacy policy."</string>
+  <string name="lbl_raise_a_ticket">Raise a ticket</string>
+  <string name="lbl_login">Login</string>
+  <string name="lbl_terms_of_use">Terms of Use</string>
+  <string name="lbl_step_2_5">STEP 2/5</string>
+  <string name="lbl_super_cell">Super cell</string>
+  <string name="msg_by_clicking_log">By clicking Login or Continue with Google, you agree to continue Terms of Use and Privacy Policy</string>
+  <string name="msg_delivery_confir">Delivery confirmed waiting for payment </string>
+  <string name="lbl_dragon_ak">Dragon ak</string>
+  <string name="lbl_1_7">1/7</string>
+  <string name="lbl_accordingly"> accordingly</string>
+  <string name="lbl_optional">(optional)</string>
+  <string name="msg_this_process_ca2">This process can take upto 7 working days</string>
+  <string name="lbl_gmail_com">gmail.com</string>
+  <string name="lbl_chat2">Chat </string>
+  <string name="msg_this_process_ca3">this process can take upto 7 working days</string>
+  <string name="msg_this_process_ca4">this process can take upto 3 working days</string>
+  <string name="lbl_forgot_password">forgot password</string>
+  <string name="lbl_logins">Logins</string>
+  <string name="lbl_sell">Sell</string>
+  <string name="lbl_safety_tips">Safety Tips</string>
+  <string name="msg_waiting_for_sel">waiting for seller to forward details</string>
+  <string name="lbl_or">or</string>
+  <string name="lbl_gp">GP</string>
+  <string name="lbl_order_details">Order details</string>
+  <string name="lbl_yes2">yes</string>
+  <string name="lbl_diamonds">Diamonds</string>
+  <string name="lbl_inbox">inbox</string>
+  <string name="lbl_evo_guns">Evo guns</string>
+  <string name="lbl_gmail">Gmail</string>
+  <string name="msg_add_your_all_co">Add your all collections screenshots including 
+guns, dress, ect</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+</resources>
